@@ -54,12 +54,12 @@ forward.addEventListener("click", slidesShow);
 back.addEventListener("click", previousSlide);
 
 autoForward.addEventListener("click", () => {
-  forwardInterval = setInterval(slidesShow, 2000);
+  forwardInterval = setInterval(slidesShow, 5000);
   clearInterval(backInterval);
 });
 
 autoBack.addEventListener("click", () => {
-  backInterval = setInterval(previousSlide, 2000);
+  backInterval = setInterval(previousSlide, 5000);
   clearInterval(forwardInterval);
 });
 
