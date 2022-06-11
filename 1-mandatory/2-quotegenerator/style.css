@@ -29,3 +29,11 @@ body {
   font-style: italic;
   margin-left: 60%;
 }
+#checkbox {
+  margin-left: 90%;
+}
+.quotes {
+  margin-top: 15%;
+  margin-left: 50%;
+  width: 40%;
+}
